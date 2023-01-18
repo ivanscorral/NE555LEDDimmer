@@ -1,31 +1,30 @@
 ## macOS Specific ignores
 
 # General
-.DS_Store
-.AppleDouble
-.LSOverride
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
 
 # Icon must end with two \r
-Icon
+**/Icon
 
 # Thumbnails
-._*
+**/._*
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+**/.Spotlight-V100
+**/.TemporaryItems
+**/.Trashes
+**/.VolumeIcon.icns
+**/.com.apple.timemachine.donotpresent
 
 ## KiCAD
 
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
-**/*.testF
 
 # Temporary files
 **/*.000
